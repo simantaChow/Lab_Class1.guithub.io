@@ -1,0 +1,127 @@
+/*common css start*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Pattaya", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*common css end*/
+
+/*top section start*/
+#top_section {
+  height: 40px;
+  background-color: #f5f7fa;
+  border-bottom: #e6e9ed solid 2px;
+}
+#top_section .info_sec{
+  display: inline-block;
+}
+
+#top_section .info_total{
+  display: inline-block;
+  justify-content: space-between;
+}
+
+#top_section .row{
+  justify-content: space-between;
+  align-items: center;
+}
+
+#top_section .info_sec p {
+  color: #00bc9c;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#top_section .info_sec p i {
+  padding-right: 5px;
+}
+
+#top_section .info_sec p:nth-last-child(1) {
+  color: #506a85;
+}
+
+#top_section .social_media_icons {
+  display: inline-flex;
+}
+#top_section .icon_box1 {
+  height: 40px;
+  width: 30px;
+  background-color: #4668b3;
+  color: #ffff;
+  text-align: center;
+  display: inline-block; 
+}
+#top_section .icon_box2 {
+  height: 40px;
+  width: 30px;
+  background-color: #de5745;
+  color: #ffff;
+  text-align: center;
+  display: inline-block; 
+}
+#top_section .icon_box3 {
+  height: 40px;
+  width: 30px;
+  background-color: #2fbbed;
+  color: #ffff;
+  text-align: center;
+  display: inline-block; 
+}
+#top_section .icon_box4 {
+  height: 40px;
+  width: 30px;
+  background-color: #d94348;
+  color: #ffff;
+  text-align: center;
+  display: inline-block; 
+}
+#top_section .icon_box5 {
+  height: 40px;
+  width: 30px;
+  background-color: #3079ff;
+  color: #ffff;
+  text-align: center;
+  display: inline-block; 
+}
+#top_section .icon_box6 {
+  height: 40px;
+  width: 30px;
+  background-color: #eb6397;
+  color: #ffff;
+  text-align: center;
+  display: inline-block; 
+}
+
+#top_section .social_media_icons i {
+  padding-top: 10px;
+}
+
+/*top section end*/
