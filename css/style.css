@@ -9,6 +9,26 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+h1 {
+  display: inline-block;
+}
+
+h2 {
+  display: inline-block;
+}
+h3 {
+  display: inline-block;
+}
+h4 {
+  display: inline-block;
+}
+h5 {
+  display: inline-block;
+}
+h6 {
+  display: inline-block;
+}
+
 li {
   list-style: none;
 }
@@ -143,7 +163,7 @@ a {
   font-weight: 700;
   padding: 20px 20px;
   font-size: 15px;
-  transition: .8s;
+  transition: 0.8s;
 }
 
 #nav_section ul li a:hover {
@@ -161,24 +181,24 @@ a {
 
 /*banner section css start*/
 
-#banner_section{
+#banner_section {
   background: url(../img/banner.jpg);
   width: auto;
   height: 883px;
   margin-top: 20px;
 }
 
-#banner_section .container{
+#banner_section .container {
   height: 100%;
 }
 
-#banner_section .row{
+#banner_section .row {
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
-#banner_section h1{
+#banner_section h1 {
   color: #ffff;
   font-size: 78px;
   font-weight: 700;
@@ -187,14 +207,14 @@ a {
   padding-top: 300px;
 }
 
-#banner_section p{
+#banner_section p {
   width: 700px;
   color: #a3b1bf;
   line-height: 30px;
 }
 
-#banner_section button{
-  background-color: #17a78b ;
+#banner_section button {
+  background-color: #17a78b;
   height: 63px;
   width: 296px;
   border: none;
@@ -210,14 +230,13 @@ a {
 }
 /*banner section css end*/
 
-
 /*beautiful section css start*/
-#beautiful{
+#beautiful {
   width: 100%;
   height: 670px;
 }
 
-#beautiful h3{
+#beautiful h3 {
   font-family: "Lato", sans-serif;
   font-size: 44px;
   font-weight: 700;
@@ -226,7 +245,7 @@ a {
   padding-top: 70px;
 }
 
-#beautiful p{
+#beautiful p {
   font-family: "Lato", sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -239,4 +258,33 @@ a {
   line-height: 50px;
 }
 
+#beautiful .row {
+  width: 1168px;
+  height: 175px;
+  justify-content: space-between;
+}
+
+#beautiful .passion {
+  display: inline-block;
+  margin-top: 200px;
+}
+
+#beautiful .passion h3 {
+  font-size: 26px;
+  color: #506a85;
+}
+
+#beautiful .passion p {
+  width: 270px;
+  height: 111px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
 /*beautiful section css end*/
+
+/*  section css start*/
+
+/*  section css start*/
